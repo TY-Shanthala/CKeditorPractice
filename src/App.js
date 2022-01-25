@@ -1,11 +1,12 @@
-import React from "react";
-import ModalComponent from "./modal/ModalComponent";
+import { Button } from "@mui/material";
+import React, { useState } from "react";
+import ModalContent from "./modal/ModalContent";
 import "./modal/modalStyleComponent.css";
 
 function App() {
   return (
     <div>
-      <ModalComponent />
+      <ModalContent />
     </div>
   );
 }
