@@ -60,7 +60,11 @@ const ModalComponent = ({
             <button type="button" className="btn btn-secondary btn-sm">
               Sava & Not Publish
             </button>
-            <button type="button" className="btn btn-secondary btn-sm mx-2">
+            <button
+              onClick={handlePreview}
+              type="button"
+              className="btn btn-secondary btn-sm mx-2"
+            >
               Preview
             </button>
             <button type="button" className="btn btn-secondary btn-sm mx-2">

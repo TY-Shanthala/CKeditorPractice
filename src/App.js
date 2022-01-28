@@ -2,6 +2,7 @@ import { Button } from "@mui/material";
 import React, { useState } from "react";
 import ModalContent from "./modal/ModalContent";
 import "./modal/modalStyleComponent.css";
+import "./App.css";
 
 function App() {
   return (
